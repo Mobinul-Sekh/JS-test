@@ -1,0 +1,70 @@
+body{
+    background-color: #EAF6F6;
+}
+.name{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.features{
+    text-align: center;
+    display: inline;
+}
+.confirm{
+    /* margin: 40px 275px; */
+    width: 20%;
+    margin-left: 38%;
+    margin-bottom: 40px;
+    padding: 2%;
+    background-color: lightgray;
+    font-size: 2rem;
+}
+.cancel{
+    /* display: inline; */
+    /* margin: 40px 500px 0px 50px; */
+    width: 20%;
+    margin-left: 3%;
+    float: left;
+    padding: 2%;
+    background-color: lightgray;
+    font-size: 2rem;
+}
+.update{
+    /* display: inline; */
+    /* margin: 0px 50px 40px 100px; */
+    width: 20%;
+    margin-right: 4%;
+    float: right;
+    padding: 2%;
+    background-color: lightgray;
+    font-size: 2rem;
+}
+.pending{
+    width: 20%;
+    margin-left: 38%;
+    margin-top: 140px;
+    padding: 2%;
+    background-color: lightgray;
+    font-size: 2rem;
+}
+.green{
+    background-color: lightgreen;
+}
+
+@media only screen and (max-width: 500px){
+    .confirm{
+        font-size: 1rem;
+    }
+    .cancel{
+        font-size: 1rem;
+    }
+    .update{
+        font-size: 1rem;
+    }
+    .pending{
+        font-size: 1rem;
+    }
+    body{
+        scroll-behavior: 1200ms;
+    }
+}
